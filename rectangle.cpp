@@ -5,7 +5,7 @@ Rectangle::Rectangle(double width, double height)
 {
     // Enforce positive dimensions without exceptions
     m_width  = width;
-    m_height = height > 0;
+    m_height = height;
 }
 
 double Rectangle::area() const {
